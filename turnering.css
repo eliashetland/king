@@ -1,0 +1,135 @@
+.buttons {
+	display: none;
+}
+
+body {
+	background-color: #00758a;
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+h1 {
+	color: white;
+}
+
+.container {
+	background-color: #d90368;
+	text-align: center;
+	border-radius: 5px;
+	padding-bottom: 50px;
+	padding-top: 1px;
+}
+
+.buttons {
+	background-color: #d90368;
+	text-align: center;
+	height: 70px;
+	line-height: 70px;
+	border-radius: 5px;
+}
+
+.menu {
+	width: 15%;
+	height: 50px;
+	border-radius: 5px;
+	background-color: #ffa1ff;
+	font-size: x-large;
+	color: white;
+}
+
+.team1,
+.team2,
+.vs {
+	font-size: x-large;
+	height: 50px;
+	line-height: 50px;
+	color: white;
+}
+
+.team1 {
+	background-color: rgb(11, 186, 205);
+}
+.team2 {
+	background-color: rgb(3, 189, 146);
+}
+.vs {
+	font-size: large;
+}
+
+input[type="text"],
+select {
+	font-size: x-large;
+	text-align: center;
+	width: 80%;
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+#start {
+	height: 50px;
+	width: 30%;
+	border-radius: 5px;
+	background-color: rgb(103, 164, 255);
+	font-size: x-large;
+	color: white;
+}
+
+.numInp {
+	text-align: center;
+	font-size: large;
+
+	margin-top: 20px;
+}
+.bind {
+	padding: 20px 0;
+	height: 40px;
+	color: white;
+}
+
+input[type="number"] {
+	font-size: x-large;
+	text-align: center;
+	width: 70px;
+	height: 40px;
+}
+
+#team1Num {
+	color: white;
+	background-color: rgb(11, 186, 205);
+}
+
+#team2Num {
+	color: white;
+	background-color: rgb(3, 189, 146);
+}
+
+.score {
+	display: none;
+	background-color: #d90368;
+	color: white;
+	text-align: center;
+	font-size: large;
+	margin-top: 20px;
+	padding: 10px 0px;
+	line-height: 50px;
+	border-radius: 5px;
+}
+
+strong {
+	color: black;
+	font-weight: bold;
+}
+
+/* 000 */
+div a img {
+	display: none;
+}
+
+.disclaimer {
+	display: none;
+}
