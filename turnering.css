@@ -3,7 +3,7 @@
 }
 
 body {
-	background-color: #00758a;
+	background-color: #040D12;
 	-webkit-touch-callout: none; /* iOS Safari */
 	-webkit-user-select: none; /* Safari */
 	-khtml-user-select: none; /* Konqueror HTML */
@@ -11,6 +11,15 @@ body {
 	-ms-user-select: none; /* Internet Explorer/Edge */
 	user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
+
+	display: flex;
+	justify-content: center;
+	
+}
+
+.appContainer{
+	width: 100%;
+	max-width: 600px;
 }
 
 h1 {
@@ -18,7 +27,7 @@ h1 {
 }
 
 .container {
-	background-color: #d90368;
+	background-color: #183D3D;
 	text-align: center;
 	border-radius: 5px;
 	padding-bottom: 50px;
@@ -26,18 +35,19 @@ h1 {
 }
 
 .buttons {
-	background-color: #d90368;
+	background-color: #183D3D;
 	text-align: center;
 	height: 70px;
 	line-height: 70px;
 	border-radius: 5px;
 }
 
+
 .menu {
 	width: 15%;
 	height: 50px;
 	border-radius: 5px;
-	background-color: #ffa1ff;
+	background-color: #040D12;
 	font-size: x-large;
 	color: white;
 }
@@ -52,10 +62,10 @@ h1 {
 }
 
 .team1 {
-	background-color: rgb(11, 186, 205);
+	background-color: rgb(16, 78, 102);
 }
 .team2 {
-	background-color: rgb(3, 189, 146);
+	background-color: rgb(28, 109, 90);
 }
 .vs {
 	font-size: large;
@@ -74,7 +84,7 @@ select {
 	height: 50px;
 	width: 30%;
 	border-radius: 5px;
-	background-color: rgb(103, 164, 255);
+	background-color: #040D12;
 	font-size: x-large;
 	color: white;
 }
@@ -100,17 +110,17 @@ input[type="number"] {
 
 #team1Num {
 	color: white;
-	background-color: rgb(11, 186, 205);
+	background-color: rgb(16, 78, 102);
 }
 
 #team2Num {
 	color: white;
-	background-color: rgb(3, 189, 146);
+	background-color: rgb(28, 109, 90);
 }
 
 .score {
 	display: none;
-	background-color: #d90368;
+	background-color: #183D3D;
 	color: white;
 	text-align: center;
 	font-size: large;
@@ -121,7 +131,7 @@ input[type="number"] {
 }
 
 strong {
-	color: black;
+	color: rgb(209, 246, 255);
 	font-weight: bold;
 }
 

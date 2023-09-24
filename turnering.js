@@ -31,9 +31,9 @@ const createNav = (numberOfPlayers) => {
 	for (let i = 0; i < menu.length; i++) {
 		menu[i].addEventListener("click", (e) => {
 			if (prevBtn) {
-				prevBtn.style.backgroundColor = "#ffa1ff";
+				prevBtn.style.backgroundColor = "#040D12";
 			}
-			e.target.style.backgroundColor = "#22a1dd";
+			e.target.style.backgroundColor = "#5C8374";
 
 			save(prevBtn.innerHTML[1] - 1);
 
@@ -87,7 +87,7 @@ const giSpillerNavn = () => {
 	matches[0].startMatch();
 	buttons.style.display = "block";
 
-	menu[0].style.backgroundColor = "#22a1dd";
+	menu[0].style.backgroundColor = "#5C8374";
 };
 
 document.querySelector("#start").addEventListener("click", giSpillerNavn);
